@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<title>Eje 1</title>
+<link rel="stylesheet" href="/static/estilos.css">
+</head>
+<body>
+<!--Barra de Menu -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+    <div class="container-fluid">
+          <a class="navbar-brand" href="/layout">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+  
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="/gat">gato</a>
+                </div>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="/panr">panda rojo</a>
+            </div>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="/zor">zorro</a>
+        </div>
+  </div>
+    </div>
+  </nav>
+   <br>
+   <br>
+  
+   {% block content %}
+   {% endblock %}
+  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<section class="main" >
+    
+<section class="articles">
+        <article>
+            <h2>Articulo Nuestra Veterinaria  </h2>
+            <br>
+            <header id="text1">
+            <p>Nuestra Veterinaria es una de las mejores del estado.Nos enfocamos principalemente en mantener un horario 24 horas 6 dias de la semana,
+            para que gracias a esto cualquier cliente pueda acceder a nuestra Veterinaria en caso de una enfermedad repentina o una emergencia inmediata de alto nivel.
+            <p>Nos dedicamos a Diagnóstico, pronóstico, tratamiento, y prevención de las enfermedades en animales de proveniencia domestica, e incluso salvajes.
+            <p>Para operar animales, los veterinarios usan sus habilidades manuales, herramientas quirúrgicas y su conocimiento de los anestésicos.
+            Aparte del tratamiento práctico, una parte importante del trabajo consiste en aconsejar a propietarios y orientarlos sobre el mejor modo de cuidar sus animales.
+        </header>
+            <br>
+                <img src="/static/imagenes/tec5.jpg" width="150px" height="150">
+                <img src="/static/imagenes/imglast.jpg" width="150px" height="150">
+                <img src="/static/imagenes/imglast2.jpg" width="150px" height="150">
+           </p>
+       </article>
+        <article>
+           <h2>Carrera de programacion  </h2>
+            <br>
+            <header id="text2">
+            <p>Yo comenze en la programacion y me mepezo a interesar aproximadamente a los 14 años, unos cuantos meses antes de salir de la secundaria.
+                <p>Esto fue debido a que comenze a programar juegos en roblox usando el lenguaje de programacion Luah, y cada vez me intereso mas y queria aprender aun mas.
+                <p>Actualmente, comenzamos la programacion en el segundo semestre con la maestra Janely y tercer y cuarto semestre continuamos estudiando la programacion con la maestra Hilda
+                <p>La programación es el acto de programar, es decir, organizar una secuencia de pasos ordenados a seguir para hacer cierta cosa. Este término puede utilizarse
+                en muchos contextos, es común hablar de programación a la hora de organizar una salida, las vacaciones o de la lista de programas con sus días y horarios de emisión de los canales de televisión o la lista de películas de un cine.
+            </p>
+            </header>
+        </article>
+</section>  
+</section> 
+<aside>
+    <h3> Avisos:</h3>
+    <p> 1:Abrimos las 24 horas del dia
+        <br>2:Atendemos 24 horas solo de lunes a sabado
+        <br>3:Los domingos abrimos a las 9 y cerramos a las 2
+        <br>4:Dias festivos la veterinaria esta cerrada
+
+        <p>La actividad del veterinario se desarrolla también en otros sectores profesionales tales como el manejo y la gestión de núcleos zoológicos, de fauna silvestre y cinegética, de espacios naturales y de animalarios.
+        También podrá llevar a cabo su labor en la realización, desarrollo y gestión de I+D+I en el sector público o en la industria químico-farmacéutica y agroalimentaria, en el desarrollo de proyectos de cooperación
+        con otros países, en laboratorios de análisis, en la docencia y educación sanitaria, y en todos aquellos ámbitos para los que pudiera estar cualificado por su formación.
+       
+    </p>
+      
+</aside>
+    
+  
+<footer>
+    <p><a href="https://www.um.es/web/estudios/grados/veterinaria/descripcion#:~:text=Medicina%20Veterinaria%3A%20Diagn%C3%B3stico%2C%20pron%C3%B3stico%2C,y%20bienestar%20de%20los%20mismos." target="_blank">Fuentes</p>
+</footer>
+  
+</body>
+</html>
